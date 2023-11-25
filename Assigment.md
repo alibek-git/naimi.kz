@@ -7,9 +7,22 @@
   * Этап взаимодействия с клиентом (шаги от _Посмотрели заявку_ до _Получили оплату_
 
 Первым шагом я посмотрел как выглядит канал регистраций, чтобы выявить потенциальные bottleneck-и:
-[![Канал регитсраций](https://github.com/alibek-git/naimi.kz/blob/main/media/user-engagement-funnel.png)](https://github.com/alibek-git/naimi.kz/blob/main/naimi.kz.ipynb)
+[![Этап регитсрации](https://github.com/alibek-git/naimi.kz/blob/main/media/user-engagement-funnel.png)](https://github.com/alibek-git/naimi.kz/blob/main/naimi.kz.ipynb)
 
 Тут можно заметить, что самая низкая конверсия в 5 из 6 месяцев была на шаге заполнения анкеты. (Детальную разбивку по процентам можно посмотреть <a href="https://github.com/alibek-git/naimi.kz/blob/main/naimi.kz.ipynb" target="_blank">тут</a>.
+
+Затем я проанализировал, насколько успешно заполоняются разные разделы анкеты специалистов (от указания напарника, до добавления фото работ).
+[![Этап заполнения анкеты](https://github.com/alibek-git/naimi.kz/blob/main/media/form-completion-rates.png)](https://github.com/alibek-git/naimi.kz/blob/main/naimi.kz.ipynb)
+
+И также построил канал взаимодейествия с клиентом от _Посмотрели заявку_ до _Получили оплату_
+[![Этапы взаимодействия с клиентом](https://github.com/alibek-git/naimi.kz/blob/main/media/client-interaction-funnel.png)](https://github.com/alibek-git/naimi.kz/blob/main/naimi.kz.ipynb)
+
+(Точные цифры конверсий тоже можно посмотреть <a href="https://github.com/alibek-git/naimi.kz/blob/main/naimi.kz.ipynb" target="_blank">тут</a>.
+
+И, наконец, построил корреляционную матрицу. Целью было выявить, какие переменные больше всего влияют на то, получит ли специалист оплату или нет _(Получили БО оплату)_.
+[![Корреляционная матрица](https://github.com/alibek-git/naimi.kz/blob/main/media/correlation_heatmap.png)](https://github.com/alibek-git/naimi.kz/blob/main/naimi.kz.ipynb)
+
+Здесь можно заметить, что высокая коррелция (0.83) наблюдается между событием _Пополнили баланс_ и _Получили БО оплату_.
 
 ## Задача 2
 ### _Предложи 2 улучшения для naimi.kz. Почему предложены были именно эти решения, на какие метрики они могут повлиять. Опиши процесс от "Идея" до "Запуск"._
