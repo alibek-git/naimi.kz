@@ -17,7 +17,7 @@
 И также построил канал взаимодейествия с клиентом от _Посмотрели заявку_ до _Получили оплату_
 [![Этапы взаимодействия с клиентом](https://github.com/alibek-git/naimi.kz/blob/main/media/client-interaction-funnel.png)](https://github.com/alibek-git/naimi.kz/blob/main/naimi.kz.ipynb)
 
-(Точные цифры конверсий также можно посмотреть <a href="https://github.com/alibek-git/naimi.kz/blob/main/naimi.kz.ipynb" target="_blank">тут)</a>.
+(Точные цифры конверсий так же можно посмотреть <a href="https://github.com/alibek-git/naimi.kz/blob/main/naimi.kz.ipynb" target="_blank">тут)</a>.
 
 И, наконец, построил корреляционную матрицу. Целью было выявить, какие переменные больше всего влияют на то, получит ли специалист оплату или нет _(Получили БО оплату)_.
 [![Корреляционная матрица](https://github.com/alibek-git/naimi.kz/blob/main/media/correlation_heatmap.png)](https://github.com/alibek-git/naimi.kz/blob/main/naimi.kz.ipynb)
